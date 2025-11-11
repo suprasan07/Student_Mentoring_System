@@ -32,7 +32,7 @@ module.exports = {
                 // if email/pass does not exists
                 return response.badrequest(res, "Please provide valid email/password", {});
             }
-
+            console.log(email, password,"email")
             const admin = await Admin.findByCredentials(email, password);
             const token = await admin.generateAuthToken();
             response.success(res, "Login successful", { auth_token: token, role: "ADMIN" });
