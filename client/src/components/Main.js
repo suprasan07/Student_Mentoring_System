@@ -34,7 +34,7 @@ const Main = () => {
             <div className="flex-2 bg-white h-full flex flex-col items-center justify-center">
                 <div className="w-full">
                     <h1 style={{ fontSize: "70px" }} className="w-full text-center">
-                        <span className="text-blue-500">Welcome</span>, to
+                        <span className="text-blue-400">Welcome</span>, to
                     </h1>
                     <h1 style={{ fontSize: "40px" }} className="w-full text-center">
                         Student Mentoring System
@@ -42,7 +42,7 @@ const Main = () => {
                 </div>
                 <img src={bg} alt="" className="w-1/2" />
             </div>
-            <div className="flex-grow bg-blue-500 h-full flex flex-col items-center justify-center gap-y-8 text-white">
+            <div className="flex-grow bg-blue-400 h-full flex flex-col items-center justify-center gap-y-8 text-white">
                 <h1>Select your role</h1>
                 <FormControl>
                     <RadioGroup
