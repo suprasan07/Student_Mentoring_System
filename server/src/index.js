@@ -40,6 +40,7 @@ app.set("view engine", "hbs");
 
 // logging to console
 app.use(morgan("dev"));
+app.get("/api", (req, res) => res.send("Hello from Vercel backend!"));
 
 // define paths for express config
 const publicDirPath = path.join(__dirname, '../public');
