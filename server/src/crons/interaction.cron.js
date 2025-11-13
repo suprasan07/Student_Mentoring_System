@@ -7,15 +7,6 @@ const Mentor = require("../models/Mentor");
 const Interaction = require("../models/Interaction");
 const emailService = require("../services/email.service");
 
-// //   * * * * * *
-// //   | | | | | |
-// //   | | | | | day of week
-// //   | | | | month
-// //   | | | day of month
-// //   | | hour
-// //   | minute
-// //   second ( optional )
-
 /**
  *  This scheduler runs at specific time and check if there we interactions
  *  between mentor and mentee in the past week.

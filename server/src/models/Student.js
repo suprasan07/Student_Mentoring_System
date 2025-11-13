@@ -7,8 +7,7 @@ const Role = require("../utils/roles");
 //env config
 dotenv.config();
 
-const studentSchema = new mongoose.Schema(
-    {
+const studentSchema = new mongoose.Schema({
         email: {
             type: String,
             required: true,

@@ -73,6 +73,8 @@ const ProfileModal = ({
                                         <option value="Computer Science & Engineering">
                                             Computer Science & Engineering
                                         </option>
+                                        <option value="Electrical">Electrical</option>
+                                    <option value="Department of Civil Engineering">Department of Civil Engineering</option>
                                     </select>
                                 </div>
                                 <div className="flex flex-col mb-3">

@@ -262,7 +262,9 @@ const Auth = ({ location }) => {
                                     selected={fields.department}
                                 >
                                     <option value="">Select department</option>
-                                    <option value="Computer Science & Engineering">Computer Science & Engineering</option>
+                                    <option value="Computer Science & Engineering">Computer Science & Engineering / McA</option>
+                                    <option value="Electrical">Electrical</option>
+                                    <option value="Department of Civil Engineering">Department of Civil Engineering</option>
                                 </select>
                             </div>
                         )}
